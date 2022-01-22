@@ -1,0 +1,27 @@
+{
+  "name": "avalanche-js-contract",
+  "version": "0.2.0",
+  "description": "contract libraries for avalanche",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neeboo@firestack.one",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "avalanche-js-account": "git://github.com/oavax/avalanche-js-account.git",
+    "avalanche-js-crypto": "git://github.com/oavax/avalanche-js-crypto.git",
+    "avalanche-js-network": "git://github.com/oavax/avalanche-js-network.git",
+    "avalanche-js-transaction": "git://github.com/oavax/avalanche-js-transaction.git",
+    "avalanche-js-utils": "git://github.com/oavax/avalanche-js-utils.git"
+  }
+}
